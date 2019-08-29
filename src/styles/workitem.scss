@@ -1,0 +1,23 @@
+#work-item{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 4em
+}
+
+#work-item h1{
+    font-size: 1.3em
+}
+
+#work-item h2{
+    font-size: 0.8em;
+    color: #E3CEFA
+}
+
+#work-item li{
+    font-size: 0.7em;
+    padding-top: 0.6em;
+}
+
+#work-item img{
+    width: 100%
+}

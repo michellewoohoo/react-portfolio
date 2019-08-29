@@ -1,0 +1,29 @@
+$main-background:#68718f; 
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+*{
+    background-color: $main-background;
+    color: white;
+    font-family: 'Poiret One';
+    letter-spacing: 0.2em;
+    text-transform: uppercase
+}
+
+.typewriter h1{
+    overflow: hidden; 
+    white-space: nowrap;
+    border-right: .15em solid rgb(3, 4, 53);
+    margin: 0 auto;
+    animation:  typing 1.2s steps(40, end),
+    blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(3, 4, 53); }
+  }

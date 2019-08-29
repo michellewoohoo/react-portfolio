@@ -1,0 +1,47 @@
+#skills{
+    margin-top:30%;
+    display:grid;
+    grid-template-columns: 30%  10% 60%
+}
+
+#skills h3{
+    font-size: 0.9em;
+    padding-right: 20%;
+    color:#D3D3D3
+}
+
+#skills h2{
+    margin: 0;
+    text-align:center;
+    padding-left: 20%
+}
+
+#skills span{
+    color:#FFB6C1
+}
+
+#curly{
+    width: 100%
+}
+
+#laptop{
+    float:right;
+    width: 70%
+}
+
+#skills-set{
+    padding-right: 10%
+}
+
+#skills-set span{
+    border: 1px solid #50a9d1;
+    margin-right: 10px;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    color: white
+}
