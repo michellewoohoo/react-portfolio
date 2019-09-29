@@ -13,3 +13,19 @@
 #experience h2{
     padding-left: 5%
 }
+
+@media (max-width:850px){
+    #experience{
+        display: flex;
+        flex-flow: column
+    }  
+
+    #experience-section{
+        order: 1;
+        font-size: 1.5em
+    }
+    #work-items{
+        border: 0;
+        order: 2;
+    }
+}

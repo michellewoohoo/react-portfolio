@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/workitem.scss';
-
+import '../node_modules/aos/src/sass/aos.scss'; 
+import AOS from 'aos';
 
 export default class WorkItem extends React.Component {
+    componentDidMount(){
+        AOS.init();
+    }
+    componentWillReceiveProps (){ 
+        AOS.refresh(); 
+    } 
     render() {
         return(
-        <div id="work-item">
-            <div>
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" id="work-item">
+            <div id = "work-img">
                 <img src={this.props.imgsrc}/>
             </div>
             <div>

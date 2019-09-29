@@ -6,7 +6,8 @@ $main-background:#68718f;
     color: white;
     font-family: 'Poiret One';
     letter-spacing: 0.2em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    overflow-x: hidden
 }
 
 .typewriter h1{
@@ -27,3 +28,9 @@ $main-background:#68718f;
     from, to { border-color: transparent }
     50% { border-color: rgb(3, 4, 53); }
   }
+  
+ footer {
+   margin-top: 10%;
+   text-align:center;
+   font-size: 0.6em
+ }

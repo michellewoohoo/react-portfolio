@@ -13,7 +13,11 @@
 #skills h2{
     margin: 0;
     text-align:center;
-    padding-left: 20%
+    float:right
+}
+
+#skills p{
+    text-align: left
 }
 
 #skills span{
@@ -26,7 +30,7 @@
 
 #laptop{
     float:right;
-    width: 70%
+    width: 50%
 }
 
 #skills-set{
@@ -45,3 +49,22 @@
     margin-top: 0.8em;
     color: white
 }
+
+@media (max-width:850px){
+    #skills{
+        display:block;
+        padding-left: 10%
+    }
+
+    #skills h2{
+        font-size: 1.5em;
+        text-align: left;
+        padding: 0;
+        float:none
+    }
+
+    #laptop{
+        display:none;
+    }
+
+ }

@@ -3,8 +3,16 @@ import ReactDOM from 'react-dom';
 import './styles/skills.scss';
 import laptop from './images/laptop.png';
 import curly_left from './images/curly_left.png'
+import '../node_modules/aos/src/sass/aos.scss'; 
+import AOS from 'aos';
 
 export default class Skills extends React.Component {
+      componentDidMount(){
+        AOS.init();
+    }
+    componentWillReceiveProps (){ 
+        AOS.refresh(); 
+    }
     render() {
         return(
         <div id="skills"> 
@@ -16,7 +24,7 @@ export default class Skills extends React.Component {
                 <img id="curly" src={curly_left}/>
             </div>
             <div>
-                <div id="skills-set">
+                <div data-aos="zoom-in" id="skills-set">
                     <p>
                         
                         <span>HTML</span>

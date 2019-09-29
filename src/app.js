@@ -13,9 +13,10 @@ class App extends React.Component {
             <div>              
                 <Intro />
                 <About/>
-                <Skills/>
                 <Experience/>
+                <Skills/>
                 <Contact/>
+                <footer>Graphics Designed and Website Built by Michelle Woo </footer>
             </div>
         );
     }

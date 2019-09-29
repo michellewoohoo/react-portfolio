@@ -30,3 +30,24 @@ h2{
     margin-bottom: 5%;
     display:inline-block
 }
+
+@media (max-width:850px){
+    #intro p{
+         display: none;
+    }
+
+    #intro img{
+        display:block;
+        max-width: 70%;
+    }
+
+    h1{
+        font-size: 2em;
+        display:inline-block
+    }
+    
+    h2{
+        font-size: 1em;
+        color: #D3D3D3
+    }
+ }

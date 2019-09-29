@@ -1,20 +1,57 @@
 #contact{
     margin-top:30%;
     display:grid;
-    grid-template-columns: 30%  10% 60%
+    grid-template-columns: 60%  10% 30%
 }
 
 #contact h2{
     margin-top: 10%;
-    padding-left: 20%;
-    margin-left: 20%
+    padding-right: 20%;
+    margin-right: 20%
 }
 
+#contact h3{
+    float:right
+}
 
 #contact-info{
     margin-top: 5%
 }
+
+#contact #icons{
+    float:right;
+    text-align: center
+}
+
 #contact #icons img{
     width: 6%;
     padding-left:10%
+}
+
+@media (max-width:850px){
+
+    #contact{
+        display: flex;
+        flex-flow: column
+    }
+    
+    #contact #icons{
+        float:none;
+        padding-right: 50px
+    }
+
+    #contact-section{
+        order: 1;
+        font-size: 1.5em;
+        padding-left: 10%
+    }
+
+    #contact-info{
+        order: 2;
+        font-size: 0.5em;
+    }
+    #contact-info h3{
+        float: none;
+        text-align: center
+    }
 }
